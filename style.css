@@ -88,6 +88,93 @@ svg{
     background-color: #f5f5f5;
     font-size: 1.3rem;
 }
+nav ul li {
+  font-size: 17px;
+  font-family: "News Cycle";
+}
+
+.about-us a {
+  font-family: "News Cycle", serif;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-family: "News Cycle";
+}
+
+.navbar-default {
+  background-color: #FDFFFC;
+  border: 0;
+}
+
+.navbar-default .navbar-brand {
+  margin-left: 5%;
+  color: #34262B;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FDFFFC;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+  color: #210A2A;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #210A2A;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #F9F2F6;
+  background-color: transparent;
+  border-bottom: 1px solid #F9F2F6;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #F9F2F6;
+  background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #F9F2F6;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+.navbar-inner {
+  background: rgba(0, 0, 0, 0);
+}
 
 @keyframes clockHand{
     from{
